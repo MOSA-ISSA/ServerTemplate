@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const Routes = require("./api/routes/MainRouter");
 const app = express();
 app.use(express.json());
 
@@ -22,6 +23,10 @@ app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 //example
+
+app.use("/", Routes);
+//By using app.use("/", Routes);
+//you are essentially saying, "For any request that comes to the root path ("/"), use the routes defined in the Routes array."
 
 // export to "./server" to run in your port"
 module.exports=app;
