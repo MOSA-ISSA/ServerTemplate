@@ -20,12 +20,13 @@ cd my-node-server
 ```
 ### 3. Install Dependencies
 ```bash
-    npm install express mongoose nodemon
+    npm install express mongoose nodemon http
 ```
 
 - [`express`](https://expressjs.com/) : Web framework for Node.js.
 - [`mongoose`](https://mongoosejs.com/): MongoDB ODM (Object Data Modeling).
 - [`nodemon`](https://nodemon.io/): Utility to automatically restart the server during development.
+- [`http`](https://nodejs.org/api/http.html): Built-in Node.js module for creating HTTP servers.
 
 ## Project Structure
 
