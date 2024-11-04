@@ -40,7 +40,7 @@ Add a script to your 'package.json' file for running the server with nodemon:
 
 ```json
     "scripts": {
-        "start": "nodemon server.js"
+        "start": "nodemon Server.js"
     }
 ```
 This allows you to start your server using npm start.
